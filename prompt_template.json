@@ -1,0 +1,21 @@
+{
+    "name": "joke_prompt_template",
+    "input_variables": [
+        "adjective",
+        "content",
+        "withColor",
+        "withoutColor"
+    ],
+    "optional_variables": [
+        "withoutColor",
+        "withColor"
+    ],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Tell me a {adjective} joke about {content} but not on {withoutColor} and {withColor}.",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
