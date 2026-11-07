@@ -1,16 +1,22 @@
 [project]
 name = "langchain-learning"
 version = "0.1.0"
-description = "Add your description here"
+description = "A learning project for asking questions about uploaded documents"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "black>=26.10.1",
-    "isort>=9.0.2",
-    "langchain>=1.4.3",
-    "langchain-ollama>=1.1.0",
-    "langchain-tavily>=0.2.18",
-    "langsmith>=0.14.9",
-    "python-dotenv>=1.2.4",
-    "tavily-python>=0.8.5",
+    "langchain>=1.0.0",
+    "langchain-chroma>=0.2.0",
+    "langchain-ollama>=1.0.0",
+    "langchain-text-splitters>=1.0.0",
+    "pypdf>=5.0.0",
+    "python-docx>=1.1.0",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.40.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=24.0.0",
+    "isort>=5.13.0",
 ]
